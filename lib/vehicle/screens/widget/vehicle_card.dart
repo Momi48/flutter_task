@@ -23,11 +23,12 @@ class VehicleCard extends StatelessWidget {
           ),
           title: Text(
             vehicle.id,
-            style: const TextStyle(fontWeight: FontWeight.bold),
+            style:  TextStyle(fontWeight: FontWeight.bold),
           ),
           subtitle: Text("Type: ${vehicle.type}"),
           trailing: Container(
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+            padding: EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width * 0.03, // ~3% of screen width
+    vertical: MediaQuery.of(context).size.height * 0.007,), // ~0.7% of screen height),
             decoration: BoxDecoration(
               color: vehicle.status == "Available"
                   ? Colors.green.withOpacity(0.2)

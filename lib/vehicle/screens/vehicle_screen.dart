@@ -9,7 +9,7 @@ class VehicleScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Vehicles Info"), centerTitle: true),
+      appBar: AppBar(title:  Text("Vehicles Info"), centerTitle: true),
       body: ListView.builder(
         itemCount: vehicles.length,
 

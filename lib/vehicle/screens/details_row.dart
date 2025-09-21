@@ -9,14 +9,14 @@ class DetailRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
+      padding:  EdgeInsets.symmetric(vertical: MediaQuery.of(context).size.height * 0.01,),
       child: Row(
         children: [
           Expanded(
             flex: 2,
             child: Text(
               title,
-              style: const TextStyle(
+              style:  TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 16,
               ),
@@ -26,7 +26,7 @@ class DetailRow extends StatelessWidget {
             flex: 3,
             child: Text(
               value,
-              style: const TextStyle(
+              style:  TextStyle(
                 fontSize: 16,
                 color: Colors.black87,
               ),

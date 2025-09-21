@@ -12,7 +12,7 @@ class VehicleDetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text("Details - ${vehicle.id}")),
       body: Padding(
-        padding: const EdgeInsets.all(16),
+        padding:  EdgeInsets.all(MediaQuery.of(context).size.width * 0.04),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
