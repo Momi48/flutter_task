@@ -19,6 +19,7 @@ Screenshots:
 
 <img width="306" height="676" alt="flutter_task_2" src="https://github.com/user-attachments/assets/60ffc196-ab9c-4015-831c-b59b42e161d5" />
 
+<img width="318" height="629" alt="image" src="https://github.com/user-attachments/assets/43e8b99a-0598-4e5c-a703-2a2d60b4e300" />
 
 
 Assumptions Made
