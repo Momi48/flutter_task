@@ -53,7 +53,7 @@ class _VehiclesPageState extends State<VehicleScreen> {
         child: Column(
           children: [
             Padding(
-              padding:  EdgeInsets.all(8.0),
+              padding:   EdgeInsets.all(MediaQuery.of(context).size.width * 0.02),
               child: TextField(
                 controller: searchController,
                 decoration: InputDecoration(
